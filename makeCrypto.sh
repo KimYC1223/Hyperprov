@@ -1,3 +1,5 @@
+rm -rf /crypto-config
+
 bin/cryptogen generate --config=./crypto-config.yaml
 
 sleep 1

@@ -6,8 +6,4 @@ docker network create -d overlay --attachable hyperledger-fabric
 
 sleep 5
 
-docker stack deploy --compose-file docker-compose-cli.yaml Hyperprov && docker ps
-
-sleep 5
-
-./scripts/script_ds.sh
+docker stack deploy --compose-file docker-compose-cli.yaml Hyperprov && docker ps -a
