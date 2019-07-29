@@ -1,3 +1,5 @@
+systemctl stop firewalld
+
 rm -rf /crypto-config
 
 bin/cryptogen generate --config=./crypto-config.yaml
@@ -17,3 +19,11 @@ export CHANNEL_NAME=mychannel  && bin/configtxgen -profile TwoOrgsChannel -outpu
 sleep 1
 
 bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org1MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org1MSP
+
+sleep 1
+
+docker ps -a && docker node ls
+
+sleep 1
+
+docker swarm init

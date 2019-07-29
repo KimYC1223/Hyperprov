@@ -1,4 +1,4 @@
-./out.sh
+./slave_out.sh
 
 sleep 1
 
