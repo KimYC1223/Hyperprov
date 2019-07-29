@@ -1,4 +1,4 @@
-bin/cryptogen generate ==config=./crypto-config.yaml
+bin/cryptogen generate --config=./crypto-config.yaml
 
 sleep 1
 
