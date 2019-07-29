@@ -6,4 +6,4 @@ docker network create -d overlay --attachable hyperledger-fabric
 
 sleep 5
 
-docker stack deploy --compose-file docker-compose-cli.yaml Hyperprov_ && docker ps -a
+docker stack deploy --compose-file docker-compose-cli.yaml hyperledger-fabric && docker ps -a
