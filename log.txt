@@ -1,1 +1,0 @@
-./scripts/script_ds.sh: line 322: peer: command not found
