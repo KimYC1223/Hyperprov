@@ -319,4 +319,4 @@ parsePeerConnectionParameters() {
   # verifyResult $res "Invoke execution on peer${PEER}.org${ORG} failed "
   # echo "===================== Invoke transaction on peer${PEER}.org${ORG} on channel '$CHANNEL_NAME' is successful ===================== "
   # echo
-}
+  #}
