@@ -98,9 +98,7 @@ setGlobals () {
     echo "================== ERROR !!! ORG Unknown =================="
     fi
 
-  if [ "$VERBOSE" == "true" ]; then
       env | grep CORE
-    fi
 }
 
 
